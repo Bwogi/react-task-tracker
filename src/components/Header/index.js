@@ -1,11 +1,18 @@
-import React from 'react';
+import Button from '../Button';
 
-const Header = () => {
+const Header = ({ title }) => {
+	const clickEvent = () => {
+		console.log('clicked');
+	};
 	return (
-		<div className='header'>
-			<h1>Task Tracker</h1>
-		</div>
+		<header className='header'>
+			<h1>{title}</h1>
+			<Button color='green' text='Add' onClick={clickEvent} />
+		</header>
 	);
+};
+Header.defaultProps = {
+	title: 'Task Tracker',
 };
 
 export default Header;
