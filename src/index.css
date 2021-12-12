@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	background-color: #e2e2e2;
+	/* background-color: #e2e2e2; */
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 	border: 1px solid steelblue;
 	padding: 30px;
 	border-radius: 5px;
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 
 .header {
@@ -50,18 +50,18 @@ body {
 	display: block;
 	width: 100%;
 }
-.event {
+.task {
 	background: #f4f4f4;
 	margin: 5px;
 	padding: 10px 20px;
 	cursor: pointer;
 }
-.event h3 {
+.task h3 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.event-reminder {
+.task-reminder {
 	border-left: 5px solid green;
 }
 .add-form {
